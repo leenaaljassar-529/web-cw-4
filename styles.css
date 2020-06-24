@@ -1,8 +1,19 @@
-html, body{
-    margin: 0;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
 }
-
+h1 {
+  color: white;
+}
+.flexbox {
+  display: flex;
+  height: 100%;
+}
+.section2 {
+  height: 100%;
+}
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
     1. لون الخلفيه
     2. الطول والعرض
@@ -13,36 +24,76 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
-.sidebar{
-    /* pxالعرض هنا يجب ان يكون 120 */
+.sidebar {
+  /* pxالعرض هنا يجب ان يكون 120 */
+  width: 120px;
+  background-color: #b5838d;
+  height: 100%;
+  /* border-radius: 15px;
+  margin: 5px;
+  padding: 10px; */
+}
+.sidebar h2 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
 
-.header{
-    /* pxالطول هنا يجب ان يكون 80 */
+.header {
+  /* pxالطول هنا يجب ان يكون 80 */
+  height: 80px;
+  background-color: #d1767a;
+  padding: 10px;
+}
+.header h1 {
+  float: left;
+  padding: 20px;
+}
+.header p {
+  padding: 10px;
+  font-size: 15px;
+  margin: 0px;
+}
+.main {
+  background-color: #e5989b;
+  height: 714px;
+  /* padding: 20px;
+  margin: 5px;
+  border-radius: 15px; */
+}
+.main p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
 
-.main{
-
+a {
+  color: darkgray;
+  text-decoration: none;
+  /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
-
-a{
-    color: darkgray;
-    /* اجعل شكل اللنك من غير خط اسفل الكلام */
+a:hover {
+  color: white;
 }
 
 /* !بــونص */
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
-
-
-h1{
-    margin: 0;
-    margin-right: 5px;
+h1 {
+  margin: 0;
+  margin-right: 5px;
 }
 
-h2{
-    margin: 0;
-    margin-left: 5px;
+h2 {
+  margin: 0;
+  margin-left: 5px;
 }
+/* p {
+  margin-left: auto;
+  margin-right: auto;
+} */
 
+footer {
+  text-align: center;
+}
